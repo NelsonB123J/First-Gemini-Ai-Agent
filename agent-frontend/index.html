@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Research Agent</h1>
+        <div id="chat-window"></div>
+        
+        <div class="controls">
+            <input type="file" id="file-picker" accept=".txt,.md">
+            <div class="chat-input-row">
+                <input type="text" id="user-input" placeholder="Ask a question or search the web...">
+                <button onclick="sendToAgent()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
